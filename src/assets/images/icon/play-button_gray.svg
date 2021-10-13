@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>play-button</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="詳情＿pc" transform="translate(-1643.000000, -985.000000)" fill="#7F7F7F" fill-rule="nonzero">
+            <g id="play-button" transform="translate(1650.500000, 992.500000) scale(-1, 1) rotate(180.000000) translate(-1650.500000, -992.500000) translate(1643.000000, 985.000000)">
+                <path d="M7.5,-5.68434189e-14 C3.36455711,-5.68434189e-14 0,3.36455711 0,7.5 C0,11.6354429 3.36455711,15 7.5,15 C11.6354429,15 15,11.6354429 15,7.5 C15,3.36455711 11.6354429,-5.68434189e-14 7.5,-5.68434189e-14 Z M5.625,11.2499204 L5.625,3.74997348 L11.25,7.49992045 L5.625,11.2499204 Z" id="形狀"></path>
+            </g>
+        </g>
+    </g>
+</svg>

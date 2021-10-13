@@ -1,0 +1,81 @@
+{
+  "_from": "vue-swipeable-bottom-sheet",
+  "_id": "vue-swipeable-bottom-sheet@0.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-PcARUGu6tZ22WRwNum6mTlnMQk/DwqdcD3cQavshIICntD9OzPelkY4mlfJezx3BspfiTO0UI33pQ3x9tmzfcg==",
+  "_location": "/vue-swipeable-bottom-sheet",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "vue-swipeable-bottom-sheet",
+    "name": "vue-swipeable-bottom-sheet",
+    "escapedName": "vue-swipeable-bottom-sheet",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/vue-swipeable-bottom-sheet/-/vue-swipeable-bottom-sheet-0.0.5.tgz",
+  "_shasum": "47f28cc19f28e3a76ecbc7bb194ee2a2cd5888e9",
+  "_spec": "vue-swipeable-bottom-sheet",
+  "_where": "/Users/user/project/FHLM-AGENT-PLUGIN",
+  "author": {
+    "name": "atsutopia"
+  },
+  "bugs": {
+    "url": "https://github.com/atsutopia/vue-swipeable-bottom-sheet/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "hammerjs": "^2.0.8"
+  },
+  "deprecated": false,
+  "description": "![NPM](https://nodei.co/npm/vue-swipeable-bottom-sheet.png) [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/atsutopia/vue-swipeable-bottom-sheet)",
+  "devDependencies": {
+    "autoprefixer": "^9.6.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.4.0",
+    "extract-text-webpack-plugin": "4.0.0-beta.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.20.3",
+    "vue": "2.5.16",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "2.5.16",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "homepage": "https://github.com/atsutopia/vue-swipeable-bottom-sheet#readme",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "component",
+    "swipeable"
+  ],
+  "license": "MIT",
+  "main": "dist/vue-swipeable-bottom-sheet.js",
+  "name": "vue-swipeable-bottom-sheet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atsutopia/vue-swipeable-bottom-sheet.git"
+  },
+  "scripts": {
+    "build": "webpack --progress --hide-modules",
+    "dev": "webpack-dev-server --config ./webpack.example.config.js --inline --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.5"
+}

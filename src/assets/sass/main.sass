@@ -1,0 +1,90 @@
+html,body,#app
+  height: 100%
+.page-layout
+  height: calc( 100% - 69px)
+  overflow: hidden
+.is-vertical
+  height: 100%
+*
+  box-sizing: border-box
+  margin: 0
+  padding: 0
+  font-weight: normal
+  font-family: PingFangSC-Regular,Pingfang SC,Hiragino Sans GB,Noto Sans,Microsoft YaHei,simsun,arial,helvetica,sans-serif
+  letter-spacing: 1px
+  line-height: 1.75
+  -webkit-tap-highlight-color: transparent
+.container
+  max-width: 1200px
+  margin-right: auto
+  margin-left: auto
+
+//tabs
+.el-tabs__nav, .el-tabs__nav-wrap::after
+  // z-index: 0
+.el-tabs__nav-wrap::after
+  background: #D8D8D8
+  height: 1px
+  display: none
+.el-tabs__item:focus.is-active.is-focus:not(:active)
+  box-shadow: none
+.el-tabs__item
+  color: #505050
+  font-size: 16px
+.el-tabs__item.is-active, .el-tabs__item:hover
+  color: #000
+.el-tabs__active-bar
+  background-color: #000
+  height: 1px
+.el-button.is-plain:active
+  background: #FFEFEF
+  border: 1px solid #eee
+//swiper
+.swiper-tabs .swiper::after
+  display: none
+//vendor pagination
+.el-pagination.is-background .btn-next, .el-pagination.is-background .btn-prev, .el-pagination.is-background .el-pager li
+  background: #FFFFFF
+  border: 1px solid #D4D4D4
+.el-pagination.is-background .el-pager li:not(.disabled):hover
+  color: #000
+.el-pagination.is-background .el-pager li:not(.disabled).active
+  background: #FFEFEF
+  border: 1px solid #F6C2C2
+  color: #000
+//breadcrumb
+.el-breadcrumb__inner a, .el-breadcrumb__inner.is-link, .el-breadcrumb__separator
+  font-size: 16px
+//dropdown
+.el-dropdown-menu__item
+  text-align: center
+.el-dropdown-menu__item:focus, .el-dropdown-menu__item:not(.is-disabled):hover
+  background-color: #FFEFEF
+  color: #000
+//breadcrumb
+.el-breadcrumb__inner a:hover, .el-breadcrumb__inner.is-link:hover
+  color: #000
+//tooltip
+.el-tooltip span
+  font-size: 12px
+  letter-spacing: 0.64px
+.el-tooltip__popper
+  padding: 5px
+  border-radius: 0
+//dialog
+.el-dialog--center .el-dialog__body
+  padding: 10px 25px 30px
+.el-dialog__headerbtn:hover .el-dialog__close
+  color: #000
+//checkbox
+.el-checkbox__inner:hover
+  border-color: #000
+.el-checkbox__input.is-checked .el-checkbox__inner, .el-checkbox__input.is-indeterminate .el-checkbox__inner
+  background-color:#000
+  border-color: #000
+.el-checkbox__input.is-checked + .el-checkbox__label
+  color: #000
+.el-checkbox.is-bordered.is-checked
+  border-color: #000
+.el-checkbox__input.is-focus .el-checkbox__inner
+  border-color: #000
