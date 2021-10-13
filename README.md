@@ -1,4 +1,4 @@
-# 使用 vue cli 去建置一個球鞋介紹網站
+# 使用 vue cli 去建置一個球鞋網站
 
 # vue-shoes-introduction
 
