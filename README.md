@@ -1,6 +1,6 @@
 # vue-shoes-introduction
 
-## 使用 vue cli 去做一個球鞋網站
+## 使用 vue cli 去做一個鞋子網站
 
 ## Project setup
 ```
